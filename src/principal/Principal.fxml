@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="600.0" prefWidth="960.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal.PrincipalController">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="285.0" prefWidth="395.0">
+               <children>
+                  <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <HBox prefHeight="265.0" prefWidth="535.0" style="-fx-border-color: white;">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+               <children>
+                  <VBox prefHeight="263.0" prefWidth="355.0">
+                     <children>
+                        <Label fx:id="nedHair" text="Cabelo Ned: " textFill="WHITE">
+                           <font>
+                              <Font name="Consolas" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="nedShirt" text="Suéter Ned: " textFill="WHITE">
+                           <font>
+                              <Font name="Consolas" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="nedCollar" text="Gola Ned:" textFill="WHITE">
+                           <font>
+                              <Font name="Consolas" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="willieHair" text="Cabelo William: " textFill="WHITE">
+                           <font>
+                              <Font name="Consolas" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="25.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="willieOverall" text="Macacão William: " textFill="WHITE">
+                           <font>
+                              <Font name="Consolas" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="willieShirt" text="Blusa William: " textFill="WHITE">
+                           <font>
+                              <Font name="Consolas" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="probNed" textFill="WHITE">
+                           <font>
+                              <Font name="Consolas Bold" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="25.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="probWillie" textFill="WHITE">
+                           <font>
+                              <Font name="Consolas Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </HBox>
+   </center>
+   <top>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(rgb(44,44,44),rgb(19,19,19));">
+               <children>
+                  <ImageView fitHeight="15.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/icon.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Machine Learning Keygen v3.1 - CORE" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas Bold" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#minimize" prefHeight="5.0" prefWidth="8.0" style="-fx-background-color: linear-gradient(rgb(117,115,118),rgb(0,0,0),rgb(0,0,0)); -fx-background-radius: 6px; -fx-cursor: hand;">
+                     <HBox.margin>
+                        <Insets left="597.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="10.0" fitWidth="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/minimize-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Button>
+                  <Button maxHeight="5.0" mnemonicParsing="false" onAction="#close" prefHeight="5.0" prefWidth="8.0" style="-fx-background-color: linear-gradient(rgb(117,115,118),rgb(0,0,0),rgb(0,0,0)); -fx-background-radius: 6px; -fx-cursor: hand;">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="10.0" fitWidth="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/close-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <MediaView fx:id="mv" fitHeight="200.0" fitWidth="400.0">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="315.0" right="2.0" top="5.0" />
+               </VBox.margin>
+            </MediaView>
+            <HBox style="-fx-border-color: white;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#extrairCaracteristicas" style="-fx-border-color: white; -fx-background-color: black; -fx-cursor: hand;" text="Extrair Caracteristicas" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Consolas Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="15.0" layoutY="15.0" mnemonicParsing="false" onAction="#selecionaImagem" style="-fx-border-color: white; -fx-background-color: black; -fx-cursor: hand;" text="Seleciona Imagem" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Consolas Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#classificar" style="-fx-border-color: white; -fx-background-color: black; -fx-cursor: hand;" text="Classificar" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas Bold" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <CheckBox fx:id="showHighGui" mnemonicParsing="false" style="-fx-border-color: white; -fx-cursor: hand;" text="HighGui" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="9.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="5.0" />
+                     </padding>
+                  </CheckBox>
+                  <Button mnemonicParsing="false" onAction="#ccpCorona" style="-fx-border-color: white; -fx-background-color: black; -fx-cursor: hand;" text="CCP Coronavirus Statistics" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas Bold" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="198.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#tencent" style="-fx-border-color: white; -fx-background-color: black; -fx-cursor: hand;" text="腾讯" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas Bold" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
